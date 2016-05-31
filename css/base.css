@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei";
+
+    bottom: 0;
+
+    background-size: 100%;
+    background-color: #fff;
+}
+.index-header{
+	height: 350px;
+	background-color:#84E1E1;
+		color: #fff;
+}
+.title{
+	text-align: center;
+	font-size: 60px;
+	margin:0;
+	padding-top: 80px;
+}
+
+.explanation{
+	margin-top:15px;
+	text-align: center;
+	font-size: 25px;
+}
+.btn-user-box{
+	width: 330px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.btn-user{
+    display: inline-block;
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #84E1E1;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+//login-page
+.login{float: left;}
+.register{float: right;}
+.login-header{
+	    padding-left: 5px;
+		color:#5e5e5e;
+}
+.login-title{
+padding-top: 2px;
+}
+.login-explanation{}
+.login-box,.register-box{
+  background-color:#fff;
+    width: 300px;
+    border: 1px solid #E6E2E2;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+ input{
+	padding-left: 5px;
+	border: none;
+}
+input:focus{
+	outline: none;
+}
+.login-box input:first-child,.register-box input:first-child{
+}
+.name,.password{
+    width: 295px;
+    height: 47px;
+    border-bottom:1px solid #CAC6C6; 
+}
+.name{
+		border-top:1px solid #CAC6C6;
+	margin-top: -15px;
+}
+.btn-login,.btn-register{
+	display: block;
+	margin: 0 auto;
+	border: none;
+	width: 300px;
+	height: 45px;
+	font-size: 20px;
+	line-height: 45px;
+	background-color: #84E1E1;
+	color: #fff;
+}
+.remember-text{
+	font-size: 13px;
+    display: inline-block;
+}
+
+.forget{
+	font-size: 12px;
+	color: #A9A9A9;
+	text-decoration: none;
+}
+.tip-register{
+	font-size: 12px;
+	display: block;
+	margin-top: 5px;
+	text-align: center;
+	color: #A9A9A9;
+	text-decoration: none;
+}
+.captcha-box{
+	width: 295px;
+    height: 47px;
+    border-bottom:1px solid #CAC6C6; 
+}
+.captcha-text{
+	height: 45px;
+}
+.pic-captcha{
+	float: right;
+	width: 50px;
+	height: 25px;
+}
+.user-header{
+	border-bottom:1px solid #e5e5e5;
+	text-align: center;
+}
+.pic-logo{
+	float: left;
+	width: 150px;
+}
+.user-title{
+	margin-left: -150px;
+	line-height: 57px;
+}
+.search-box,.userinf-box{
+    float: right;
+    line-height: 70px;
+    margin-right: 25px;
+}
+.search,.userinf{
+
+	width: 25px;
+}
+.main-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.text-edit{
+	width: 100%;
+	height: 450px;
+	resize: none;
+}
+.btn-send-letter{
+	float: right;
+	border: none;
+	width: 150px;
+	border-radius: 8px;
+	height: 45px;
+	font-size: 20px;
+	line-height: 45px;
+	background-color: #84E1E1;
+	color: #fff;
+}
+.write-box{
+    float: right;
+    margin-right: 15px;
+    line-height: 57px;
+}
+.btn-write-letter{
+    display: inline-block;
+ 	width: 150px;
+	border-radius: 8px;
+	height: 25px;
+	font-size: 20px;
+	line-height: 25px;
+	background-color: #84E1E1;
+	color: #fff;
+	text-decoration: none;
+}
+.main-content-user{
+	width: 1200px;
+	height: 450px;
+	margin:0 auto;
+	clear: both;
+}
+.left-content{
+   float: left;
+   width: 200px;
+   	height: 450px;
+   border: 1px solid #E6E2E2;
+}
+.right-content{
+	float: right;
+	width: 970px;
+		height: 450px;
+	border: 1px solid #E6E2E2;
+}
+.letter-content{
+	height: 400px;
+}
+.letter-status{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #e5e5e5;
+}
+.letter-status-hasread{
+	margin-left: 48px;
+}
+
+.letter-list{
+   list-style-type: none;
+}
+.letter{
+	margin-left: 24px;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #e5e5e5;
+}
